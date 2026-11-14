@@ -62,8 +62,9 @@ zwischen all deinen Geräten abgeglichen.</p>
 <li>Funktioniert offline; Änderungen werden später übertragen</li>
 <li>Kein Konto beim Entwickler, keine Werbung, kein Tracking</li>
 </ul></div>
+<p><a href="https://apps.apple.com/de/app/id6834079614"><strong>📲 Kostenlos im App Store laden</strong></a> <span class="muted">(iPhone und iPad, Mac folgt)</span></p>
 <div class="card"><p><strong>Offen und nachvollziehbar.</strong> Der komplette Quellcode von App und Server liegt öffentlich auf GitHub.
-Das Projekt wurde mit Künstlicher Intelligenz (Claude) erstellt.</p>
+Das Projekt wurde mit Künstlicher Intelligenz (Claude) erstellt und steht unter der MIT-Lizenz.</p>
 <p><a href="https://github.com/Minipliy/planer/blob/main/docs/ANLEITUNG.md">Schritt-für-Schritt-Anleitung zum Einrichten →</a><br>
 <a href="https://github.com/Minipliy/planer">Quellcode auf GitHub →</a></p></div>
 """)

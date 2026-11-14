@@ -47,10 +47,11 @@ Anleitung geht aber vom Raspberry Pi aus.
 
 ## Schritt 1: Die App installieren
 
-Lade **„Planer – Aufgaben & Kalender“** aus dem App Store auf dein iPhone, iPad oder deinen Mac.
+Lade **„Planer – Aufgaben & Kalender“** kostenlos aus dem App Store:
+👉 <https://apps.apple.com/de/app/id6834079614>
 
-> Falls die App im App Store (noch) nicht zu finden ist, kannst du sie auch selbst auf deine Geräte
-> spielen – siehe [Anhang: App selbst bauen](#anhang-app-selbst-bauen).
+Das geht auf iPhone und iPad. Die Mac-Version wird gerade von Apple geprüft. Bis dahin
+kannst du sie selbst auf deinen Mac spielen – siehe [Anhang: App selbst bauen](#anhang-app-selbst-bauen).
 
 Öffne die App einmal. Du kannst sie sofort benutzen – der Server kommt jetzt dazu.
 

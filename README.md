@@ -14,6 +14,8 @@ Beispiel einem Raspberry Pi). Von dort werden sie zwischen deinen Geräten abgeg
 - Deine Daten bleiben bei dir
 - Funktioniert auch ohne Internet – Änderungen werden später abgeglichen
 
+**📲 [Planer im App Store](https://apps.apple.com/de/app/id6834079614)** (iPhone und iPad, kostenlos; die Mac-Version ist in Prüfung)
+
 <p>
   <img src="docs/bilder/iphone-1-heute.png" width="200" alt="Heute-Ansicht">
   <img src="docs/bilder/iphone-2-kalender.png" width="200" alt="Kalender">
@@ -76,6 +78,10 @@ Portfreigabe am Router).
 - Bei Konflikten gewinnt die zuletzt gespeicherte Änderung.
 - Der Server speichert alles in einer einzigen SQLite-Datei (`/var/lib/planer/planer.db`).
 - `GET /health` antwortet mit `{"ok": true}`.
+
+## Lizenz
+
+MIT-Lizenz – du darfst den Code frei verwenden, verändern und weitergeben. Siehe [LICENSE](LICENSE).
 
 ## Datenschutz
 
