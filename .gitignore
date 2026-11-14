@@ -1,0 +1,9 @@
+build/
+web/out/
+server/data/
+private/
+*.local
+.DS_Store
+xcuserdata/
+*.xcuserstate
+__pycache__/
