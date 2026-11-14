@@ -29,6 +29,7 @@ final class Store {
         load()
         Reminders.setup()
         Reminders.reschedule(tasks)
+        WidgetExport.update(store: self)
     }
 
     // MARK: - Abfragen
@@ -243,6 +244,7 @@ final class Store {
     private func changed() {
         save()
         Reminders.reschedule(tasks)
+        WidgetExport.update(store: self)
         scheduleSync()
     }
 
@@ -401,5 +403,6 @@ final class Store {
         lastRev = result.rev
         save()
         if tasksChanged { Reminders.reschedule(tasks) }
+        if tasksChanged || !result.changes.isEmpty { WidgetExport.update(store: self) }
     }
 }

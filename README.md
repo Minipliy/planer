@@ -32,6 +32,8 @@ Beispiel einem Raspberry Pi). Von dort werden sie zwischen deinen Geräten abgeg
 - **Schnelleingabe:** „Zahnarzt morgen 15 Uhr #gesundheit !hoch“ setzt Datum, Uhrzeit,
   Schlagwort und Priorität automatisch
 - **Ordnung:** Prioritäten, Teilaufgaben, Schlagwörter, Notizen, Suche
+- **Widgets:** Kalender mit deinen heutigen (und überfälligen) Aufgaben für den Home-Bildschirm,
+  die nächste Aufgabe auf dem Sperrbildschirm neben der Uhrzeit
 - **Heller und dunkler Modus**, Bedienung angelehnt an bekannte To-do-Apps
 
 ## So funktioniert es
@@ -66,6 +68,7 @@ Portfreigabe am Router).
 | Ordner | Inhalt |
 | --- | --- |
 | `Planer/`, `Planer.xcodeproj` | Die App (SwiftUI, ein Projekt für iPhone, iPad und Mac) |
+| `PlanerWidget/`, `Shared/` | Die Widgets und die Daten, die App und Widgets teilen (App Group) |
 | `server/` | Der Sync-Server (`server.py`) und das Installationsskript (`install.sh`) |
 | `web/` | Die Webseite planer.minipliy.net (`python3 web/build.py`) |
 | `docs/` | Anleitung und Bilder |

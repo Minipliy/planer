@@ -216,6 +216,27 @@ Jetzt gleicht Planer überall ab, solange Tailscale auf dem Gerät eingeschaltet
 
 ---
 
+## Widgets einrichten (optional)
+
+Planer hat Widgets – kleine Fenster mit deinen Aufgaben direkt auf dem Bildschirm, ohne die App zu öffnen.
+
+**Kalender auf dem Home-Bildschirm:**
+1. Auf dem Home-Bildschirm auf eine freie Stelle **lange drücken**, bis die Symbole wackeln.
+2. Oben links auf **„Bearbeiten“** → **„Widget hinzufügen“** tippen.
+3. Nach **„Planer“** suchen, das Widget **„Kalender & Heute“** wählen → **„Widget hinzufügen“**.
+
+Links siehst du den Monat (mit den Pfeilen blätterst du), rechts deine Aufgaben für heute.
+Überfällige Aufgaben stehen rot ganz oben.
+
+**Nächste Aufgabe neben der Uhrzeit (Sperrbildschirm):**
+1. iPhone sperren, dann den Sperrbildschirm **lange drücken** → **„Anpassen“** → **„Sperrbildschirm“**.
+2. Auf das Feld **über der Uhrzeit** (dort steht das Datum) tippen.
+3. **„Planer“** → **„Nächste Aufgabe“** wählen. Fertig.
+
+Die Widgets aktualisieren sich automatisch, wenn du in der App etwas änderst.
+
+---
+
 ## Im Alltag
 
 Alle Befehle tippst du nach `ssh ich@planer.local` auf dem Pi ein.

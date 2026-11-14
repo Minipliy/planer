@@ -53,6 +53,7 @@ struct RootView: View {
         }
         .onChange(of: scenePhase) { _, phase in
             if phase == .active { store.scheduleSync() }
+            if phase == .background { WidgetExport.update(store: store) }
         }
         #if DEBUG
         .onAppear {
